@@ -1,7 +1,7 @@
 <?php  
- $servername = "localhost";
+ $servername = "3.93.171.188";
  $username ="root";
- $password="";
+ $password="123@123a";
  $database = "web_travel";
   //Khai báo biến để kết nối đến CSDL
  $connect = mysqli_connect($servername, $username,$password,$database);
