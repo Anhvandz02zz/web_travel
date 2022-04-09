@@ -90,7 +90,7 @@
     $result = mysqli_query($connect,$sql);
     if ($result) {
       echo "<script>alert('Account has been created successfully!')</script>";
-      echo "<script>window.open('trangtru.php','_self')</script>";
+      echo "<script>window.open('index.php','_self')</script>";
     }
     else{
       echo"<script>alert('Error')</script>";

@@ -70,7 +70,7 @@ if(isset($_POST['insert_post'])){
    if($insert_pro){
     echo "<script>alert('Product Has Been inserted successfully!')</script>";
 
-echo "<script>window.open('trangtru.php','_self')</script>";
+echo "<script>window.open('index.php','_self')</script>";
    }
    
    }

@@ -61,16 +61,16 @@ session_start();
 </form>
 </div>
  <?php
- $servername = "localhost";
- $username ="root";
- $password="";
- $database = "web_travel";
+  $servername = "3.132.234.157";
+     $username ="anhvan";
+     $password="123@123a";
+     $database = "web_travel";
   //Khai báo biến để kết nối đến CSDL
- $connect = mysqli_connect($servername, $username,$password,$database);
- if(!$connect){
-  echo"Kết nối thất bại";
- }
- else{
+     $connect = mysqli_connect($servername, $username,$password,$database);
+    if(!$connect){
+    echo"Kết nối thất bại";
+    }
+   else{
   echo"Kết nối thành công";
  }
  //Hàm isset để kiểm tra xem có click button login ko?
@@ -89,7 +89,7 @@ session_start();
  // Nếu tìm thấy kết quả, tức là tìm thấy trong các hàng có username = $username và password = $password ---> check_login > 0
  if($check_login>0){
   echo"<script>alter('login successfully !')</script>";
-  echo "<script>window.open('trangtru.php','_self')</script>";
+  echo "<script>window.open('index.php','_self')</script>";
   $_SESSION['username']=$username;
   $_SESSION['user_id']=$row_user['user_id'];
   echo $_SESSION['username'];
