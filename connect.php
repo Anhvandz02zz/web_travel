@@ -1,6 +1,6 @@
 <?php  
- $servername = "3.93.171.188";
- $username ="root";
+ $servername = "3.132.234.157";
+ $username ="anhvan";
  $password="123@123a";
  $database = "web_travel";
   //Khai báo biến để kết nối đến CSDL
