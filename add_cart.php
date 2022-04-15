@@ -12,18 +12,18 @@
 			//Nếu sản phẩm đã có trong giỏ hàng thì đưa ra thông báo
 			if ($check_product > 0) {
 				echo "<script>alert('Products already in the cart')</script>";
-				echo "<script>window.open('trangtru.php','_self')</script>";
+				echo "<script>window.open('index.php','_self')</script>";
 			}
 			else {
 				$sql = "INSERT into cart values ('', $produc_id, '$user_id',1 ) ";
 				$result = mysqli_query($connect, $sql);	
 				if ($result) {
 					echo "<script>alert('Product added to the cart successfully!')</script>";
-					echo "<script>window.open('trangtru.php','_self')</script>";
+					echo "<script>window.open('index.php','_self')</script>";
 				}
 				else {
 					echo "<script>alert('Error')</script>";
-					echo "<script>window.open('trangtru.php','_self')</script>";
+					echo "<script>window.open('index.php','_self')</script>";
 				}
 			}
 		}
