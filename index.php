@@ -154,6 +154,8 @@ padding: 20px;
             <li><a href="">Sản Phẩm</li>
               <li><a href="">Tin Tức</li>
                 <li><a href="">liên Hệ</li>
+                  
+                    <li><a href="logout.php"></a></li>
       </ul>
     </div>
     </div>
@@ -188,7 +190,7 @@ while ($row=mysqli_fetch_array($result)) {
      <p>Ten san pham:$product_name</p>
       <p>gia:$price</p>
       </a>
-      <a href='trangtru.php?add_cart=$produc_id'>
+      <a href='index.php?add_cart=$produc_id'>
       <button>Add to cart</button><a>
 
     </div>
