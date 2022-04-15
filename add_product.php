@@ -36,11 +36,11 @@
  
      <tr>
    <td><b>Product Name:</b></td>
-   <td><input type="file" name="product_img" size="30px" required/></td>
+   <td><input type="text" name="product_name" size="30px" required/></td>
     </tr>
      <tr>
   <td><b>Product Image: </b></td>
-  <td><input type="text" name="product_name" /></td>
+  <td><input type="file" name="product_img" /></td>
 </tr>
 
 <tr>
