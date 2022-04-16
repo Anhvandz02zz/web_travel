@@ -34,6 +34,8 @@
    </td>
      </tr>
  
+
+<tr>
      <tr>
    <td><b>Product Name:</b></td>
    <td><input type="text" name="product_name" size="30px" required/></td>
@@ -48,8 +50,6 @@
   <td><input type="text" name="price" required/></td>
 </tr>
 
-
-<tr>
    <td></td>
    <td colspan="7"><input type="submit" name="insert_post" value="Add Product"/></td>
 </tr>
@@ -64,7 +64,7 @@ if(isset($_POST['insert_post'])){
     $product_name = $_POST['product_name'];
     $product_img= $_POST['product_img'];
     $price = $_POST['price'];  
-    $sql = " INSERT INTO product VALUES (NULL,'$product_name','$product_img','$price') ";
+    $sql = "INSERT INTO product VALUES (NULL,'$product_name','$product_img','$price')";
    $insert_pro = mysqli_query($connect, $sql);
    
    if($insert_pro){
