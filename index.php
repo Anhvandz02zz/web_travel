@@ -104,6 +104,43 @@ padding: 20px;
   width: 100%;
   height: 50%;
 }
+.button{
+min-height: 30px;
+   border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  width: 80px;
+  border-radius: 10px;
+}
+.button:hover{
+  background-color: tomato;
+}
+.product{
+  margin-left: 20px;
+}
+.product .product-item{
+  justify-content: space-around;
+display: flex;
+flex-wrap: wrap;  
+}
+.product-item-li{
+  border: 1px solid black;
+  margin-top: 5px;
+}
+.product-item-li p{
+  text-align: center;
+}
+.product-item-li p button{
+  background-color: tomato;
+  min-height: 25px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.product-item-li p button:hover{
+  color: white;
+}
 
 
  </style>
@@ -201,9 +238,71 @@ while ($row=mysqli_fetch_array($result)) {
 ?>
 <?php include("add_cart.php");?>
 
-<ul>
-<li>okok</li> 
-<li>sdw</li>
-</ul>
+<div class="product">
+    <ul class="product-item">
+      <li class="product-item-li">
+        <img style="width: 250px;height: 250px;" src="https://i-giadinh.vnecdn.net/2020/10/02/1a-1601625636-1601625649-2142-8981-3585-1601635885_680x0.jpg">
+        <p>Name:Đồ chơi</p>
+        <p>Gía:420đ</p>
+        <p><button>Thêm giỏ hàng</button></p>
+      </li>
+      <li class="product-item-li">
+        <img style="width: 250px;height: 250px;" src="https://i-giadinh.vnecdn.net/2020/10/02/1a-1601625636-1601625649-2142-8981-3585-1601635885_680x0.jpg">
+        <p>Name:Đồ chơi</p>
+        <p>Gía:420đ</p>
+        <p><button>Thêm giỏ hàng</button></p>
+      </li>
+      <li class="product-item-li">
+        <img style="width: 250px;height: 250px;" src="https://i-giadinh.vnecdn.net/2020/10/02/1a-1601625636-1601625649-2142-8981-3585-1601635885_680x0.jpg">
+        <p>Name:Đồ chơi</p>
+        <p>Gía:420đ</p>
+        <p><button>Thêm giỏ hàng</button></p>
+      </li>
+      <li class="product-item-li">
+        <img style="width: 250px;height: 250px;" src="https://i-giadinh.vnecdn.net/2020/10/02/1a-1601625636-1601625649-2142-8981-3585-1601635885_680x0.jpg">
+        <p>Name:Đồ chơi</p>
+        <p>Gía:420đ</p>
+        <p><button>Thêm giỏ hàng</button></p>
+      </li>
+      <li class="product-item-li">
+        <img style="width: 250px;height: 250px;" src="https://i-giadinh.vnecdn.net/2020/10/02/1a-1601625636-1601625649-2142-8981-3585-1601635885_680x0.jpg">
+        <p>Name:Đồ chơi</p>
+        <p>Gía:420đ</p>
+        <p><button>Thêm giỏ hàng</button></p>
+      </li>
+      <li class="product-item-li">
+        <img style="width: 250px;height: 250px;" src="https://i-giadinh.vnecdn.net/2020/10/02/1a-1601625636-1601625649-2142-8981-3585-1601635885_680x0.jpg">
+        <p>Name:Đồ chơi</p>
+        <p>Gía:420đ</p>
+        <p><button>Thêm giỏ hàng</button></p>
+      </li>
+      <li class="product-item-li">
+        <img style="width: 250px;height: 250px;" src="https://i-giadinh.vnecdn.net/2020/10/02/1a-1601625636-1601625649-2142-8981-3585-1601635885_680x0.jpg">
+        <p>Name:Đồ chơi</p>
+        <p>Gía:420đ</p>
+        <p><button>Thêm giỏ hàng</button></p>
+      </li>
+      <li class="product-item-li">
+        <img style="width: 250px;height: 250px;" src="https://i-giadinh.vnecdn.net/2020/10/02/1a-1601625636-1601625649-2142-8981-3585-1601635885_680x0.jpg">
+        <p>Name:Đồ chơi</p>
+        <p>Gía:420đ</p>
+        <p><button>Thêm giỏ hàng</button></p>
+      </li>
+      <li class="product-item-li">
+        <img style="width: 250px;height: 250px;" src="https://i-giadinh.vnecdn.net/2020/10/02/1a-1601625636-1601625649-2142-8981-3585-1601635885_680x0.jpg">
+        <p>Name:Đồ chơi</p>
+        <p>Gía:420đ</p>
+        <p><button>Thêm giỏ hàng</button></p>
+      </li>
+      <li class="product-item-li">
+        <img style="width: 250px;height: 250px;" src="https://i-giadinh.vnecdn.net/2020/10/02/1a-1601625636-1601625649-2142-8981-3585-1601635885_680x0.jpg">
+        <p>Name:Đồ chơi</p>
+        <p>Gía:420đ</p>
+        <p><button>Thêm giỏ hàng</button></p>
+      </li>
+      
+    </ul>
+
+   </div>
 </body>
 </html>
