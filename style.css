@@ -1,0 +1,141 @@
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+*{
+	top: 0;
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+.menu{
+	justify-content: space-between;
+	display: flex;
+	background-color: tomato;
+	min-height: 42px;
+	cursor: pointer;
+	position: relative;
+	
+}
+
+
+.menu-address{
+	margin-left: 40px;
+	color: white;
+	font-weight: bold;
+	margin: auto;
+}
+.nav-list{
+	padding-left: 16px;
+	margin: auto;
+	margin-right: 100px;
+}
+.nav-item{
+	display: inline-block;
+	margin: 0px 8px;
+	justify-content: flex-end;
+	color: white;
+}
+.nav-item:hover{
+	color: black;
+}
+.menu-address::first-letter{
+	font-size: 30px;
+	color:#8B008B;
+}
+
+.btn--success{
+	background-color: tomato;
+}
+.btn--disabled{
+    opacity: 0.5 !important;
+    cursor: default;
+}
+.btn{
+	width: 100%;
+	padding: 6px 0;
+	margin-top: 5px;
+	color: white;
+}
+.header-layout{
+	display: flex;
+	padding: 12px 0;
+	background-color: #fff;
+	padding: 12px 30px;
+	flex: 1;
+}
+.siderbar-one{
+	flex: 1;
+	order: 1;
+	cursor: pointer;
+	border: 1px solid black;  
+}
+.siderbar-one-li{
+	border-bottom: 1px solid black;
+	padding: 15px 0;
+	box-sizing: border-box;
+	color: rgb(80, 193, 199);
+}
+.siderbar-one-li:hover{
+	color:#8B008B ;
+}
+.siderbar-center{
+	flex: 4;
+	order: 3;
+}
+.header-item{
+padding: 0 16px;
+}
+.search{
+	display: flex;
+
+}
+.select{
+	width: 200px;
+	min-height: 30px;
+}
+.input{		 
+	 min-height: 30px;
+	width: 400px;
+	border-radius: 40px;
+}
+.button{
+min-height: 30px;
+   border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  width: 80px;
+  border-radius: 10px;
+}
+.button:hover{
+	background-color: tomato;
+}
+.product{
+	margin-left: 20px;
+}
+.product .product-item{
+	justify-content: space-around;
+display: flex;
+flex-wrap: wrap;	
+}
+.product-item-li{
+	border: 1px solid black;
+	margin-top: 5px;
+}
+.product-item-li p{
+	text-align: center;
+}
+.product-item-li p button{
+	background-color: tomato;
+	min-height: 25px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+.product-item-li p button:hover{
+	color: white;
+}
+
