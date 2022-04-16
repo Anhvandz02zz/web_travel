@@ -214,50 +214,50 @@ flex-wrap: wrap;
     <ul class="product-item">
       <li class="product-item-li">
         <img style="width: 250px;height: 250px;" src="https://i-giadinh.vnecdn.net/2020/10/02/1a-1601625636-1601625649-2142-8981-3585-1601635885_680x0.jpg">
-        <p>Name:Đồ chơi</p>
-        <p>Gía:420đ</p>
+        <p>Name:Oto</p>
+        <p>Gía:420.00</p>
         <p><button>Thêm giỏ hàng</button></p>
       </li>
       <li class="product-item-li">
-        <img style="width: 250px;height: 250px;" src="https://i-giadinh.vnecdn.net/2020/10/02/1a-1601625636-1601625649-2142-8981-3585-1601635885_680x0.jpg">
-        <p>Name:Đồ chơi</p>
-        <p>Gía:420đ</p>
+        <img style="width: 250px;height: 250px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjvtRWr0vjRfDFxDuhpjS7xhsEE5nlFZTaB2GZDWeHxWyEyB2j5t-4im67IDs2D5mN7GM&usqp=CAU">
+        <p>Name:Xe cho hang</p>
+        <p>Gía:320.000</p>
         <p><button>Thêm giỏ hàng</button></p>
       </li>
       <li class="product-item-li">
-        <img style="width: 250px;height: 250px;" src="https://i-giadinh.vnecdn.net/2020/10/02/1a-1601625636-1601625649-2142-8981-3585-1601635885_680x0.jpg">
-        <p>Name:Đồ chơi</p>
-        <p>Gía:420đ</p>
+        <img style="width: 250px;height: 250px;" src="https://longthuy.vn/wp-content/uploads/2018/08/52305424_23843197722980749_6216029017003261952_n.png">
+        <p>Name:Gấu bông</p>
+        <p>Gía:180.000d</p>
         <p><button>Thêm giỏ hàng</button></p>
       </li>
       <li class="product-item-li">
-        <img style="width: 250px;height: 250px;" src="https://i-giadinh.vnecdn.net/2020/10/02/1a-1601625636-1601625649-2142-8981-3585-1601635885_680x0.jpg">
-        <p>Name:Đồ chơi</p>
-        <p>Gía:420đ</p>
+        <img style="width: 250px;height: 250px;" src="https://gotrangtri.vn/wp-content/uploads/2019/12/do-choi-tre-em-14.jpg">
+        <p>Name:Xếp Hình</p>
+        <p>Gía:420.000đ</p>
         <p><button>Thêm giỏ hàng</button></p>
       </li>
       <li class="product-item-li">
-        <img style="width: 250px;height: 250px;" src="https://i-giadinh.vnecdn.net/2020/10/02/1a-1601625636-1601625649-2142-8981-3585-1601635885_680x0.jpg">
-        <p>Name:Đồ chơi</p>
-        <p>Gía:420đ</p>
+        <img style="width: 250px;height: 250px;" src="https://channel.mediacdn.vn/prupload/156/2018/04/img20180426144802904.jpg">
+        <p>Name:Lego</p>
+        <p>Gía:1.200.000</p>
         <p><button>Thêm giỏ hàng</button></p>
       </li>
       <li class="product-item-li">
-        <img style="width: 250px;height: 250px;" src="https://i-giadinh.vnecdn.net/2020/10/02/1a-1601625636-1601625649-2142-8981-3585-1601635885_680x0.jpg">
-        <p>Name:Đồ chơi</p>
-        <p>Gía:420đ</p>
+        <img style="width: 250px;height: 250px;" src="https://gocyeube.com/wp-content/uploads/2021/09/do-choi-mat-san-mam-non-min.jpg">
+        <p>Name:Hình dán</p>
+        <p>Gía:320.000đ</p>
         <p><button>Thêm giỏ hàng</button></p>
       </li>
       <li class="product-item-li">
-        <img style="width: 250px;height: 250px;" src="https://i-giadinh.vnecdn.net/2020/10/02/1a-1601625636-1601625649-2142-8981-3585-1601635885_680x0.jpg">
+        <img style="width: 250px;height: 250px;" src="https://inhat.vn/hcm/wp-content/uploads/2019/08/baby-cua-toi.jpg">
         <p>Name:Đồ chơi</p>
-        <p>Gía:420đ</p>
+        <p>Gía:420.000đ</p>
         <p><button>Thêm giỏ hàng</button></p>
       </li>
       <li class="product-item-li">
-        <img style="width: 250px;height: 250px;" src="https://i-giadinh.vnecdn.net/2020/10/02/1a-1601625636-1601625649-2142-8981-3585-1601635885_680x0.jpg">
-        <p>Name:Đồ chơi</p>
-        <p>Gía:420đ</p>
+        <img style="width: 250px;height: 250px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4aiOitXA-krEuXDKSj-itHizgmy-P5U54gC9RTxOBZz-3c8vfDq4Ba7pwmTlZ9_oHmP4&usqp=CAU">
+        <p>Name:Đồ xếp Hình</p>
+        <p>Gía:180.000đ</p>
         <p><button>Thêm giỏ hàng</button></p>
       </li>
       <li class="product-item-li">
