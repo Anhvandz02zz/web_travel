@@ -200,5 +200,10 @@ while ($row=mysqli_fetch_array($result)) {
 
 ?>
 <?php include("add_cart.php");?>
+
+<ul>
+<li>okok</li> 
+<li>sdw</li>
+</ul>
 </body>
 </html>
