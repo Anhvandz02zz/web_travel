@@ -208,35 +208,7 @@ flex-wrap: wrap;
 </div>
 
   <h2 style="text-align: center;">Các loại sản phẩm</h2>  
-<?php 
-include('connect.php');
-?>
-<?php
-$sql="SELECT *FROM product";
-$result=mysqli_query($connect,$sql);
-while ($row=mysqli_fetch_array($result)) {
-    $produc_id = $row['produc_id'];
-    $product_img = $row['product_img'];
-    $product_name =$row['product_name'];
-    $price =$row['price'];
 
- echo "<a href='single.php?id=$produc_id'> <div class='container'>
-  <div class='row'>
-      <div class='col-sm-4'>
-       <h3><img style='width:200px;height: 200px;'src='$product_img'></h3>
-     <p>Ten san pham:$product_name</p>
-      <p>gia:$price</p>
-      </a>
-      <a href='add_cart.php?add_cart=$produc_id'>
-      <button>Add to cart</button><a>
-
-    </div>
-  </div>
-  </div>";
-}
-
-?>
-<?php include("add_cart.php");?>
 
 <div class="product">
     <ul class="product-item">
