@@ -151,7 +151,7 @@ padding: 20px;
       <ul >
         <li><a href="">Trang Trủ</li>
           <li><a href="">Gioi Thiệu</li>
-            <li><a href="">Sản Phẩm</li>
+            <li><a href="add_product.php">Sản Phẩm</li>
               <li><a href="">Tin Tức</li>
                 <li><a href="">liên Hệ</li>
                   
@@ -170,7 +170,7 @@ padding: 20px;
   </div>
 </div>
 
-  <h2 style="text-align: center;">Các loại sản phẩm</h2>
+  <h2 style="text-align: center;">Các loại sản phẩm</h2>  
 <?php 
 include('connect.php');
 ?>
@@ -186,7 +186,7 @@ while ($row=mysqli_fetch_array($result)) {
  echo "<a href='single.php?id=$produc_id'> <div class='container'>
   <div class='row'>
       <div class='col-sm-4'>
-       <h3><img style='width:200px;height: 200px;' src='Image/$product_img'></h3>
+       <h3><img style='width:200px;height: 200px;'src='Image/$product_img'></h3>
      <p>Ten san pham:$product_name</p>
       <p>gia:$price</p>
       </a>
@@ -197,6 +197,7 @@ while ($row=mysqli_fetch_array($result)) {
   </div>
   </div>";
 }
+
 ?>
 <?php include("add_cart.php");?>
 </body>
