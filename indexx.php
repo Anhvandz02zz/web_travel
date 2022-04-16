@@ -1,3 +1,6 @@
+<?php 
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	</style>
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -55,6 +58,9 @@
    	  </div>
    	   
    </div>
+   <?php 
+include('connect.php');
+?>
    <div class="product">
     <ul class="product-item">
     	<li class="product-item-li">
