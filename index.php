@@ -190,7 +190,7 @@ while ($row=mysqli_fetch_array($result)) {
      <p>Ten san pham:$product_name</p>
       <p>gia:$price</p>
       </a>
-      <a href='index.php?add_cart=$produc_id'>
+      <a href='add_cart.php?add_cart=$produc_id'>
       <button>Add to cart</button><a>
 
     </div>

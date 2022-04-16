@@ -61,8 +61,8 @@
 include("connect.php");
 if(isset($_POST['insert_post'])){
    
-    $product_img= $_POST['product_img'];
     $product_name = $_POST['product_name'];
+    $product_img= $_POST['product_img'];
     $price = $_POST['price'];  
     $sql = " INSERT INTO product VALUES (NULL,'$product_img','$product_name','$price') ";
    $insert_pro = mysqli_query($connect, $sql);
