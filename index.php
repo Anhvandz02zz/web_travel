@@ -186,7 +186,7 @@ while ($row=mysqli_fetch_array($result)) {
  echo "<a href='single.php?id=$produc_id'> <div class='container'>
   <div class='row'>
       <div class='col-sm-4'>
-       <h3><img style='width:200px;height: 200px;'src='Image/$product_img'></h3>
+       <h3><img style='width:200px;height: 200px;'src='$product_img'></h3>
      <p>Ten san pham:$product_name</p>
       <p>gia:$price</p>
       </a>
